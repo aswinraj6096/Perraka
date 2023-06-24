@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heading{
+            background-color: rgb(207, 201, 201);
+            padding: 0.7em;
+            width: 100%;
+            height: 20%;
+            margin-left: -1%;
+        }
+        th{
+            color: aliceblue;
+            background-color: rgb(129, 129, 129);
+            width: 30.75%;
+            padding: 15px;
+        }
+        td {
+                width: 30.75%;
+                padding: 15px;
+                }
+        ul.navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #c3c2c2;
+                }
+
+        ul.navbar li {
+                float: left;
+                }
+
+        ul.navbar li a {
+                display: block;
+                color: rgb(20, 20, 20);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+        ul.navbar li a:hover {
+                background-color: #f4eeee;
+                }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Bill Details</title>
+</head>
+<body>
+    <h2 style="color:rgb(224, 17, 17)">&emsp;Quick Ebill</h2>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pay Bill</a></li>
+        <li><a href="#">Register Complaint</a></li>
+        <li><a href="#">Complaint Status</a></li>      
+    </ul>
+
+    <!-- <div class="heading">&emsp;
+        <a href="http://hii.net">Home</a>&emsp;
+        <a href="http://hii.net">Paybill</a>&emsp;
+        <a href="http://hii.net">Register Complaint</a>&emsp;
+        <a href="http://hii.net">Complaint Status</a>
+    </div> -->
+   
+    <br>
+    <div>
+        <span style="padding-left: 1250px;">
+        <b>WELCOME</b> CustName</span>
+        <button type="submit" style="background-color: tomato; border-style: hidden; border-radius: 30cqb;">LOGOUT</button>
+    </div>
+    <div>
+        <h2 style="background-color: rgb(0, 166, 255); border-radius: 5px; height: 40px;;" >&emsp; View Bill & Pay</h2>
+    </div>
+    <div>&emsp;
+        <table>
+            <tr>
+                <th>Consumer Number</th>
+                <th>Select</th>
+                <th>Due Amount</th>
+                <th>Payable(Rs.)</th>
+            </tr>
+            <tr>
+                <td style="color: black;">54123</td>
+                <td><input type="checkbox"name="mycheckbox" checked>
+                <td style="color: black;">0.00</td>
+                <td style="color: black;">0.00</td>
+            </tr>
+            <tr>
+                <td style="color: black;">54124</td>
+                <td><input type="checkbox"name="mycheckbox" checked>
+                <td style="color: black;">0.00</td>
+                <td style="color: black;">0.00</td>
+            </tr>
+            <tr>
+                <td style="color: black;">54125</td>
+                <td><input type="checkbox"name="mycheckbox" checked>
+                <td style="color: black;">2,028.00</td>
+                <td style="color: black;">2,028.00</td>
+            </tr>
+        </table>
+        <hr></hr>
+        <h2 span style="color: brown; padding-left: 1140px;">Total Amount Payable&emsp;Rs.2,028.00</h2>
+        <hr></hr>
+        <br><br>
+        <input style="background-color: rgb(0, 170, 255); margin-left: 47%; border-radius: 5px; color: aliceblue;" type="SUBMIT" value="Proceed To Pay">
+</body>
+</html>

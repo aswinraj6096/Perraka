@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register New User</title>
+  <style>
+    a {
+        padding-top: 200px;
+        padding-right: 30px;
+        padding-left: 700px;
+    }
+    a1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        margin-left: 35px;
+      }
+    a2 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        margin-left: 680px;
+      }
+  </style>
+</head>
+<body>
+  <h1>Register New User</h1>
+  <hr></hr>
+  <h2>Consumer Details</h2>
+  <hr></hr><br>
+  <div>
+    <label for="consumer-id">Consumer ID:</label>
+    <input type="number" id="consumer-id" name="consumer-id" placeholder="Enter consumer ID" min="0">
+  
+  <a>
+    <label for="bill-number">Bill Number:</label>
+    <input type="text" id="bill-number" name="bill-number" placeholder="Enter bill number">
+  </a></div><br>
+  <h2>User Details</h2>
+  <hr></hr><br>
+  <div>
+  <label for="title">Title :</label> 
+  <select name="title" id="title">
+    <option value="payment ">Payment</option>
+    <option value="uc">Upgrade connection</option>
+    <option value="complaint">Complaint</option>
+    <option value="other">Other</option>
+  </select>
+  
+    <a><a1><label for="customer-name">Customer Name:</label></a1></a>
+    <input type="text" id="customer-name" name="customer-name" placeholder="Enter customer name">
+  </div>
+  <br>
+  <div>
+    <label for="email">Email:&nbsp;</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+  
+    <a><label for="mobile">Mobile:</label>
+    <select id="country-code" name="country-code">
+      <option value="+1">+1</option>
+      <option value="+91">+91</option>
+      
+    </select>
+    <input type="text" id="mobile" name="mobile" placeholder="Enter mobile number"></a>
+  </div>
+  <h2>Login Details</h2>
+  <hr></hr><br>
+  <div>
+    <label for="user-id">User ID:</label>
+    <input type="text" id="user-id" name="user-id" placeholder="Enter user ID">
+
+    <a2><label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password"></a2>
+  </div>
+  <div>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password">
+  </div><br>
+  <button type="submit">Submit</button>
+</body>
+</html>

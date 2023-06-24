@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heading{
+            background-color: rgb(207, 201, 201);
+            padding: 0.7em;
+            width: 100%;
+            height: 20%;
+            margin-left: -1%;
+        }
+        th{
+            color: aliceblue;
+            background-color: rgb(129, 129, 129);
+            width: 30.75%;
+            padding: 15px;
+        }
+        td {
+                width: 30.75%;
+                padding: 15px;
+                }
+        ul.navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #c3c2c2;
+                }
+
+        ul.navbar li {
+                float: left;
+                }
+
+        ul.navbar li a {
+                display: block;
+                color: rgb(20, 20, 20);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+        ul.navbar li a:hover {
+                background-color: #f2ecec;
+                }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Complaint</title>
+</head>
+<body>
+    <h2 style="color:rgb(224, 17, 17)">&emsp;Quick Ebill</h2>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pay Bill</a></li>
+        <li><a href="#">Register Complaint</a></li>
+        <li><a href="#">Complaint Status</a></li>      
+    </ul>
+    <br>
+    <div>
+        <span style="padding-left: 1250px;">
+        <b>WELCOME</b> &nbsp;XXXX&nbsp;</span>
+        <button type="submit" style="background-color: tomato; border-style: hidden; border-radius: 30cqb;">LOGOUT</button>
+    </div>
+    <div>
+        <h2 style="background-color: rgb(0, 166, 255); border-radius: 5px; height: 40px;;" >&emsp; File new Complaint</h2>
+    </div>
+    <br>
+    <div>
+        <label style="padding-left: 125px;" for="title">Complaint/Service Type :</label> 
+        <select name="title" id="title">
+          <option value="light">Street Light Related</option>
+          <option value="conn">New Connection </option>
+          <option value="complaint">Change Connection</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label span style="padding-left: 602px;" for="landmark">Landmark :</label>
+        <input type="text" id="landmark" name="landmark" placeholder="Landmark">
+    </div>
+    <br>
+    <div>
+        <label style="padding-left: 222px;" for="title">Category :</label> 
+        <select name="title" id="title">
+          <option value="light">Street Light Not Working</option>
+          <option value="conn">Street Light Brightness Low </option>
+          <option value="other">Other</option>
+        </select>
+
+        <label style="padding-left: 500px;" for="consumer">Consumer Number :</label>
+        <input type="text" id="consumer" name="consumer" placeholder="Consumer Number">
+    </div>
+    <br>
+    <div>
+        <label style="padding-left: 183px;" for="contact">Contact Person :</label>
+        <input  type="text" id="contact" name="contact" placeholder="Contact person" required>
+
+        <label style="padding-left: 507px;" for="problem">Problem Description :</label>
+        <input type="text" h id="problem" name="problem" placeholder="Street Light Not Working">
+    </div>
+    <br><br>
+    <div>
+        <label style="padding-left: 181px;" for="mobile">Mobile Number:</label>
+        <input type="number" id="mobile" name="mobile" placeholder="Enter mobile number" required>
+        
+        <label style="padding-left: 593px;" for="address">Address:</label>
+        <input type="number" id="address" name="address" placeholder="Enter your address">
+    </div>
+    <br><br><br><br>
+    <div>
+    <input style="margin-left: 43%;" type="reset" value="CANCEL">
+    <button style="background-color: rgb(0, 170, 255); margin-left: 1%;  color: aliceblue;" type="submit">Submit Complaint</button>
+    </div>
+</body>
+</html>
