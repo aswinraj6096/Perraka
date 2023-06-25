@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heading{
+            background-color: rgb(207, 201, 201);
+            padding: 0.7em;
+            width: 100%;
+            height: 20%;
+            margin-left: -1%;
+        }
+        .th1{
+            color: aliceblue;
+            background-color: rgb(129, 129, 129);
+            width: 10%;
+            padding: 15px;
+        }
+        .td1 {
+                width: 10%;
+                padding: 15px;
+                }
+        .th2{
+            color: aliceblue;
+            background-color: rgb(18, 144, 255);
+            width: 200px;
+            padding: 5px;
+        }
+        .td2{
+            width: 200px;
+            padding: 5px;
+        }
+        ul.navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #c3c2c2;
+                }
+
+        ul.navbar li {
+                float: left;
+                }
+
+        ul.navbar li a {
+                display: block;
+                color: rgb(20, 20, 20);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+        ul.navbar li a:hover {
+                background-color: #f2ecec;
+                }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Payment</title>
+</head>
+<body>
+    <h2 style="color:rgb(224, 17, 17)">&emsp;Quick Ebill</h2>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pay Bill</a></li>
+        <li><a href="#">Register Complaint</a></li>
+        <li><a href="#">Complaint Status</a></li>      
+    </ul>
+    <br>
+    <div>
+        <span style="padding-left: 1250px;">
+        <b>WELCOME</b> &nbsp;XXXX&nbsp;</span>
+        <button type="submit" style="background-color: tomato; border-style: hidden; border-radius: 30cqb;">LOGOUT</button>
+    </div>
+    <div>
+        <h2 style="background-color: rgb(0, 166, 255); border-radius: 5px; height: 40px;;" >&emsp; Bill Payment</h2>
+        <div>
+            <label style="padding-left: 20px;" for="payment">For Detailed Payment Instructions&emsp;</label>
+            <button style="background-color: rgb(0, 170, 255); margin-left: 1%;  color: aliceblue;" type="submit">Click Here</button>
+        </div>
+        <br>
+        <div>
+            <table style="background-color: #dfdfdf;">
+                <tr>
+                    <th class="th1" style="text-align: left;" colspan="2">Bill Details</th>
+                </tr>
+                <tr>
+                    <td class="td1">Bill Amount</td1>
+                    <td class="td1" style="color: tomato; text-align: center;" >Rs. 2,028.00</td>
+                </tr>
+                <tr>
+                    <td class="td1">Total Payable Amount</td>
+                    <td class="td1" style="color: tomato; text-align: center;" >Rs. 2,028.00</td>
+                </tr>
+                <tr>
+                    <td class="td1">PG Charge</td>
+                    <td class="td1" style="color: tomato; text-align: center;" >As Applicable</td>
+                </tr>
+            </table>
+        </div><br>
+            <table border=".5" style="margin-left: 30%;">
+                <tr>
+                    <th class="th2">Consumer Number</th>
+                    <th class="th2">Bill Number</th>
+                    <th class="th2">Payable Amount</th>
+                </tr>
+                <tr>
+                    <td class="td2">1156789068988</td>
+                    <td class="td2">34523456</td>
+                    <td class="td2">Rs.2,028.00</td>
+                </tr>
+            </table>
+            <b><h2 style="color: rgb(0, 106, 255);">&emsp; Kindly select your mode of payment</h2></b>
+            <hr></hr>
+            <br><br>
+            <div>
+                <span style="margin-left: 40%;"></span>
+                <input type="checkbox"name="mycheckbox" unchecked>
+                <label for="payment">Credit Card&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label> 
+                <input type="checkbox"name="mycheckbox" unchecked>
+                <label for="payment">Debit Card</label>
+            </div>
+            <br><br><br>
+            <div>
+                <span style="margin-left: 45%;"></span>
+                <button style="background-color: rgb(0, 170, 255); margin-left: 1%;  color: aliceblue;" type="submit">PAY NOW</button>&emsp;
+                <input type="reset" value="Back To Home">
+            </div>      
+    </body>
+</html>
